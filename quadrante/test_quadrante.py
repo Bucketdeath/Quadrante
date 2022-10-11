@@ -57,7 +57,7 @@ def test_caso4():
 
     assert resultado == "Quarto"
 
-def test_caso_nuloX():
+def test_caso_nuloX():  # nulo x
 
     x = 0
     y = 30
@@ -69,7 +69,7 @@ def test_caso_nuloX():
 
     assert resultado == ""
 
-def test_caso_nuloY():
+def test_caso_nuloY():  # nulo y
 
     x = -3
     y = 0
@@ -81,7 +81,7 @@ def test_caso_nuloY():
 
     assert resultado == ""
 
-def test_caso_error():
+def test_caso_error():  # caso error
 
     x = 2
     y = 5
