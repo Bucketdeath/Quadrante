@@ -13,10 +13,10 @@ class Menu:
 
     def cordenada_valida(self, cordenadas):
 
-        if (cordenadas.cordenadaX != 0 or cordenadas.cordenadaY != 0):
-            return True
-        else:
+        if (cordenadas.cordenadaX == 0 or cordenadas.cordenadaY == 0):
             return False
+        else:
+            return True
 
     def mostrar_menu(self):
 
