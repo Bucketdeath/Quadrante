@@ -2,6 +2,8 @@ from Cordenadas import Cordenadas
 
 class Menu:
     
+    def __init__(self, Cordenadas):
+        pass
 
     def entradas_cordenadas(self):
 
