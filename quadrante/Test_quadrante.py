@@ -81,14 +81,3 @@ def test_caso_nuloY():  # nulo y
 
     assert resultado == ""
 
-def test_caso_error():  # caso error
-
-    x = 2
-    y = 5
-
-    cordenadas = Cordenadas(x, y)
-    quadrante = Quadrante(cordenadas)
-
-    resultado = quadrante.obter_cordenadas_quadrante()
-
-    assert resultado == "Segundo"
